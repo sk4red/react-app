@@ -18,7 +18,6 @@
     "eject": "react-scripts eject",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\""
   },
- 
   "eslintConfig": {
     "extends": [
       "react-app",
