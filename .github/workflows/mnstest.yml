@@ -1,0 +1,16 @@
+name: Test MNS CI
+on: workflow_dispatch
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 
+      uses: DigitalInnovation/cloud-devsecops-pipelineactions/workflows/CI@latest
+      with:
+        build_tool: npm
+        build_environment: nonprod
+        application_name: react-app
+        run_code_quality_analysis: false
+  
