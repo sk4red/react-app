@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint"
+    "lint": "./node_modules/.bin/eslint",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\""
   },
   "eslintConfig": {
